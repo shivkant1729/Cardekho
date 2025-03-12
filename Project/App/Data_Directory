@@ -1,0 +1,3 @@
+import shutil
+os.makedirs("data", exist_ok=True)
+shutil.move("/mnt/data/extracted_files/Housing.csv", "data/Housing.csv")
